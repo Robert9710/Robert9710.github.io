@@ -8,3 +8,16 @@ pre{
 	
     border:2px solid black;
 }
+#card1{
+	width: 200px;
+    height: 250px;
+    border:2px solid black;
+}
+img{
+	width: 10rem;
+	height: 20rem;
+	
+}
+div{
+	display: inline-block;
+}
