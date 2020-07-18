@@ -9,14 +9,13 @@ pre{
     border:2px solid black;
 }
 #card1{
-	width: 200px;
-    height: 250px;
+	width: 6rem;
+	height: 8rem;
     border:2px solid black;
 }
 img{
-	width: 10rem;
-	height: 20rem;
-	
+	width: 6rem;
+	height: 8rem;
 }
 div{
 	display: inline-block;
