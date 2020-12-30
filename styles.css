@@ -1,0 +1,47 @@
+body{
+	background-image: url('space.jpg');
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+div{
+	display: inline-block;
+	font-size: 200%;
+	width: 19%;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 50px;
+}
+
+.fade3{
+	animation: fadeIn ease 3s;
+}
+
+.fade4{
+	animation: fadeIn ease 4s;
+}
+
+.fade5{
+	animation: fadeIn ease 5s;
+}
+
+.fade6{
+	animation: fadeIn ease 6s;
+}
+
+.fade7{
+	animation: fadeIn ease 7s;
+}
+
+a{
+	font-family: 'Garamond';
+	color: #fff;
+	text-decoration: none;
+}
