@@ -1,3 +1,0 @@
-Helo from file
-line 2
-And 3
