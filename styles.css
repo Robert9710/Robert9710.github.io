@@ -5,6 +5,20 @@ body{
 @keyframes fadeIn {
   0% {
     opacity:0;
+	margin-left: -35px;
+  }
+  100% {
+    opacity:1;
+	margin-left:0px;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  50%{
+	  opacity:0.05;
   }
   100% {
     opacity:1;
@@ -44,4 +58,8 @@ a{
 	font-family: 'Garamond';
 	color: #fff;
 	text-decoration: none;
+}
+
+a:hover{
+	animation: fadeOut linear 5s infinite;
 }
